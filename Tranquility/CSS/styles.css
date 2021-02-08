@@ -1,0 +1,277 @@
+ /*--------------------------------------Body-------------------------------------------*/
+
+body{
+    background-color: #;
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+
+}
+#bodyimg{
+    text-align: #;
+    height: 350px;
+    margin-bottom: 3rem;
+}
+
+/*--------------------------------------Navbar-------------------------------------------*/
+
+#navsection{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .navbar-brand{
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
+    color: #f7f7ee;
+      font-weight:400;
+}
+
+.topnavitem > a{
+ color:#f7f7ee;
+}
+
+.navbar-brand > img{
+  margin-right: 0.5rem;
+
+}
+
+.navbar .navbar-brand:hover{
+    text-decoration: underline;
+}
+
+.topnav .nav-item{
+    list-style-type: none;
+    padding: 1rem;
+    flex-direction: row;
+    text-align:left;
+    flex-wrap: wrap; /* assumes you only want one row */
+    font-size: 22px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+  }
+
+.topnav a:hover{
+  text-decoration: underline;
+}
+
+.topnav{
+  background-color: #ffc478;
+}
+
+
+#navrule{
+  margin-top:0rem;
+  margin-bottom: 0rem;
+  height:0.2rem;
+  color:#f7f7ee;
+}
+#special{
+  background-color:white;
+}
+
+  /*----------------------------------Mainpage-Carousel------------------------------------*/
+
+#imgcarouselsection{
+  background-color: #b6eb7a;
+  padding-top: 0.65rem;
+  padding-bottom:2rem;
+}
+.carousel{
+  width:100%;
+}
+.carousel-item > img {
+  width:100%;
+  height:auto;
+}
+
+.ratinglogo{
+  width:25%;
+  margin-top: 30%;
+
+}
+.starrating{
+  margin-top:1.2rem;
+  margin-bottom: 2rem;
+  height:25%;
+  width:80%
+}
+.reviewtext{
+  font-size: 1rem;
+  color: #0a043c;
+  font-style: italic;
+}
+/*----------------------------------"Our-Services"------------------------------------*/
+
+#ourservices{
+  padding: 0 0 0 0;
+  margin:0 0 0 0 ;
+}
+
+  /*----------------------------------"Special-Events"------------------------------------*/
+
+.SpecialEvents .SE h1{
+  color: #f58634;
+  text-align:center;
+  margin-bottom: 8rem;
+  margin-top:5rem;
+  margin-left:2rem;
+  font-size: 4.35rem;
+}
+
+.ourservicesSE{
+margin: 0 0 0 0;
+padding: 0 0.65rem 0 0.65rem;
+width: 100%
+}
+
+.SpecialEvents{
+  padding:  0 0 0 0;
+}
+
+.EventIcon{
+  width:18%;
+  height:auto;
+}
+
+.BabyShowerRow, .GenderRevealRow,
+ .EngagementRow, .GraduationRow,
+ .BachelorRow, .FamilyRow, .ReunionRow{
+   width: 100%;
+
+ }
+
+ .specialEventSpecific{
+      font-weight: 800;
+      color:#162447;
+      font-size: 2.5rem;;
+ }
+ .specialEventSpecific:hover{
+     color: #f58634;
+     text-decoration: none;
+ }
+
+.GenderRevealRow, .GraduationRow,
+.FamilyRow{
+  text-align: right;
+  float:right;
+  margin-bottom:2rem;
+
+}
+.BabyShowerRow,.EngagementRow,
+.BachelorRow, .ReunionRow{
+  text-align:left;
+  float:left;
+  margin-bottom:2rem;
+}
+.BabyShowerRow img,.EngagementRow img,
+.BachelorRow img, .ReunionRow img{
+  margin-right: 4rem;
+  margin-left: 3rem
+}
+.GenderRevealRow img, .GraduationRow img,
+.FamilyRow img{
+  margin-left:4rem;
+  margin-right: 3rem
+}
+
+.specialeventcontact{
+  color: #162447;
+  font-style: italic;
+}
+.specialeventcontact:hover{
+    text-decoration: none;
+    color:#f58634;
+}
+.EventsBottomText{
+  color:#162447;
+  font-size:1.5rem;
+}
+
+  /*----------------------------------"Rooms"-----------------------------------------------*/
+
+.RoomsTitleRow .Rooms{
+  text-align:center;
+  margin-bottom: 4rem;
+  margin-top:6rem;
+  margin-left:1rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.RoomDetails{
+  border-bottom: 5px solid #a6a9b6;
+  border-right:5px solid #a6a9b6;
+  width:320px;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 0 0 0 0;
+}
+
+.RoomHeader{
+  font-size: 30px;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  font-weight:800;
+  color: #162447;;
+}
+
+.RoomCol{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  display:inline;
+}
+
+.RoomRow{
+ text-align: center;
+ margin:  0 auto 0 auto;
+ padding: 0 15% 0 15%;
+}
+
+.RoomFooterButton{
+  -webkit-border-radius:0;
+  font-size: 1.55rem;
+  font-weight: 800;
+  margin-bottom:2rem;
+  margin-top:0.65rem;
+  padding: 0.6rem 3.2rem 0.6rem 3.2rem;
+  background-color:#f58634;
+
+  color: #f7f7ee;
+}
+
+.RoomFooterButton:hover{
+  -webkit-border-radius:15px;
+  border-radius: 15px;
+  background-color:#f58634;
+  border-color:#f58634;
+  color: #f7f7ee;
+
+}
+
+.ourservicesRms div table tbody tr td{
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left:0.85rem;
+  text-align:  left;
+}
+
+.PricingPreview{
+  color: #206a5d;
+  margin-top: 1.5rem;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  font-style: italic ;
+}
+  /*----------------------------------"Special-Events"------------------------------------*/
+
+.Conferences h1{
+  text-align:center;
+  margin-bottom: 4rem;
+  margin-top:8rem;
+  margin-left:1rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
