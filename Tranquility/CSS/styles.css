@@ -1,15 +1,13 @@
  /*--------------------------------------Body-------------------------------------------*/
 
 body{
-    background-color: #;
-
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 
 
 }
+
 #bodyimg{
-    text-align: #;
     height: 350px;
     margin-bottom: 3rem;
 }
@@ -49,7 +47,7 @@ body{
     font-size: 22px;
     font-family: 'Open Sans',sans-serif;
     font-weight: 600;
-  }
+}
 
 .topnav a:hover{
   text-decoration: underline;
@@ -114,15 +112,17 @@ body{
   color: #f58634;
   text-align:center;
   margin-bottom: 8rem;
-  margin-top:5rem;
+  margin-top:8rem;
   margin-left:2rem;
   font-size: 4.35rem;
 }
 
 .ourservicesSE{
-margin: 0 0 0 0;
-padding: 0 0.65rem 0 0.65rem;
-width: 100%
+text-align: center;
+margin: 0 auto 0 auto;
+padding: 0 0.5rem 0 0.5rem;
+width: 100%;
+
 }
 
 .SpecialEvents{
@@ -134,66 +134,86 @@ width: 100%
   height:auto;
 }
 
-.BabyShowerRow, .GenderRevealRow,
- .EngagementRow, .GraduationRow,
- .BachelorRow, .FamilyRow, .ReunionRow{
+.WeddingRow, 
+.BabyShowerRow, 
+.GenderRevealRow,
+.EngagementRow, 
+.GraduationRow,
+.BachelorRow, 
+.FamilyRow, 
+.ReunionRow{
    width: 100%;
-
  }
+ .SE a{
+  font-weight: 800;
+  color:#162447;
+  font-size: 1.5rem;
+}
+.SE a:hover{
+  font-weight: 800;
+  color:#f58634;
+  text-decoration: none;
+}
 
- .specialEventSpecific{
-      font-weight: 800;
-      color:#162447;
-      font-size: 2.5rem;;
- }
- .specialEventSpecific:hover{
-     color: #f58634;
-     text-decoration: none;
- }
 
-.GenderRevealRow, .GraduationRow,
-.FamilyRow{
+.GenderRevealRow,
+.GraduationRow,
+.FamilyRow,.WeddingRow{
   text-align: right;
   float:right;
-  margin-bottom:2rem;
+  margin-bottom:1.5rem;
 
 }
-.BabyShowerRow,.EngagementRow,
+ .BabyShowerRow,.EngagementRow,
 .BachelorRow, .ReunionRow{
   text-align:left;
   float:left;
-  margin-bottom:2rem;
+  margin-bottom: 1.5rem;
 }
-.BabyShowerRow img,.EngagementRow img,
+
+ .BabyShowerRow img,.EngagementRow img,
 .BachelorRow img, .ReunionRow img{
-  margin-right: 4rem;
-  margin-left: 3rem
+  margin-right: 1rem;
+  margin-left: 3rem;
 }
-.GenderRevealRow img, .GraduationRow img,
+
+.WeddingRow img,
+.GenderRevealRow img, 
+.GraduationRow img,
 .FamilyRow img{
-  margin-left:4rem;
-  margin-right: 3rem
+  margin-left: 1rem;
+  margin-right: 3rem;
 }
 
 .specialeventcontact{
   color: #162447;
+  font-weight:600;
   font-style: italic;
+  font-size: 1.3rem;
 }
+
 .specialeventcontact:hover{
     text-decoration: none;
+    font-weight:500;
     color:#f58634;
 }
-.EventsBottomText{
+
+.EventsBottom .EventsBottomText{
   color:#162447;
-  font-size:1.5rem;
+  font-size:1.3rem;
+  margin-top:2rem ;
+  margin-bottom: 5rem;
+}
+.EventsBottomText a{
+  font-size: 1.3rem;
 }
 
   /*----------------------------------"Rooms"-----------------------------------------------*/
 
 .RoomsTitleRow .Rooms{
   text-align:center;
-  margin-bottom: 4rem;
-  margin-top:6rem;
+  margin-bottom: 2rem;
+  margin-top:8rem;
   margin-left:1rem;
   font-size: 4.35rem;
   color:#f58634;
@@ -220,6 +240,7 @@ width: 100%
   margin-left:auto;
   margin-right:auto;
   margin-top:2rem;
+  margin-bottom:2rem;
   display:inline;
 }
 
@@ -230,7 +251,6 @@ width: 100%
 }
 
 .RoomFooterButton{
-  -webkit-border-radius:0;
   font-size: 1.55rem;
   font-weight: 800;
   margin-bottom:2rem;
@@ -265,13 +285,118 @@ width: 100%
   font-size: 1.2rem;
   font-style: italic ;
 }
-  /*----------------------------------"Special-Events"------------------------------------*/
 
-.Conferences h1{
+  /*----------------------------------"Conferences"------------------------------------*/
+
+.ConfTitleRow .Conferences {
   text-align:center;
-  margin-bottom: 4rem;
-  margin-top:8rem;
+  margin-bottom: 6rem;
+  margin-top:7rem;
   margin-left:1rem;
   font-size: 4.35rem;
   color:#f58634;
+}
+
+.Confinclude {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #162447;
+  margin-bottom:6rem;
+}
+
+.ConfDetails{
+  border-bottom: 5px solid #a6a9b6;
+  border-right:5px solid #a6a9b6;
+  width:350px;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 0 0 0 0;
+}
+
+.ConfHeader{
+  font-size: 30px;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  font-weight:800;
+  color: #162447;
+}
+
+.ConfCol{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  margin-bottom:5rem;
+  display:inline;
+}
+
+.ConfRow{
+ text-align: center;
+ margin:  0 auto 0 auto;
+ padding: 0 15% 0 15%;
+}
+
+.ConfFooterButton{
+  font-size: 1.55rem;
+  font-weight: 800;
+  margin-bottom:2rem;
+  margin-top:2rem;
+  padding: 0.6rem 3.2rem 0.6rem 3.2rem;
+  background-color:#f58634;
+
+  color: #f7f7ee;
+}
+
+.ConfFooterButton:hover{
+  -webkit-border-radius:15px;
+  border-radius: 15px;
+  background-color:#f58634;
+  border-color:#f58634;
+  color: #f7f7ee;
+
+}
+
+.ourservicesConf div table tbody tr td{
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left:0.85rem;
+  text-align:  left;
+}
+
+.ConfPricingPreview{
+  color: #162447;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic ;
+}
+
+.Confinclude .ConfIncludetext > a{
+  color: #162447;
+  font-weight: bold;
+}
+
+.Confinclude .ConfIncludetext > a:hover{
+  text-decoration: none;
+  color: #f58634;
+  font-style: italic;
+}
+
+/*-------------------------------------"Site-Footer"-------------------------------------*/
+.SiteFooter{
+  background-color:#f58634 ;
+  padding: 2rem 5rem 3rem 5rem;
+  text-align:left;
+
+}
+
+.SiteFooter a{
+  color: #f7f7ee;
+  flex-wrap: wrap; /* assumes you only want one row */
+  font-size: 22px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.footerTable{
+  text-align:left
 }
