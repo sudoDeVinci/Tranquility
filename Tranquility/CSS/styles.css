@@ -457,3 +457,118 @@ width: 100%;
 
 /*--------------------------------------"Contact"-------------------------------------------- */
 
+
+.contact-section{
+  padding: 2rem;
+}
+
+.contact-section .container h2{
+  text-align:center;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-bottom: 2rem;
+  margin-top:2rem;
+  margin-left:1rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.contact-section .container p{
+  text-align: center; 
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto; 
+  letter-spacing:.2rem;
+}
+
+.contact-form i.fa{
+  font-size: 1.3rem; 
+  padding: 1rem;
+  border-radius: 80%;
+  margin: .6rem;
+  cursor: pointer;
+  border:2px solid #ffc478;
+  color: #ffc478;
+}
+
+.contact-form i.fa:hover{
+  cursor: pointer;
+  border:2px solid #ec8b0b;;
+  color: #ec8b0b;;
+}
+ 
+.contact-form{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+  
+.form-info{
+  font-size: 1.3rem;   
+  font-style: italic;
+  letter-spacing: .2rem;
+}
+
+input{
+  padding: 10px;
+  margin:10px;
+  width: 70%;
+  border: none;
+  outline:none;
+  background-color: #ffe8cb;
+}
+
+input::placeholder{
+  color: #ec8b0b;
+}
+
+textarea{
+  padding: 10px;
+  margin: 10px;     
+  width: 70%;
+  border: none;
+  outline:none;
+  background-color: #ffe8cb;
+}
+
+textarea::placeholder{
+  color: #ec8b0b;
+}
+ 
+.submit{
+  width: 50%;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  height: 3.5rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 3%;
+  border:3px solid #ec8b0b;
+  color: #ffc478;
+}
+
+.contact-section .col{
+  padding: 1rem;
+}
+
+.submit:hover{
+  border: 2px solid #ec8b0b;
+  color: #ffc478;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+  .contact-section .contact-form{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section .submit{
+ 
+    width: 60%;
+  }
+ 
+}
