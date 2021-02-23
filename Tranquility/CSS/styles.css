@@ -54,7 +54,7 @@ body{
 }
 
 .topnav{
-  background-color: #ffc478;
+  background-color: #f58634;
 }
 
 
@@ -385,18 +385,28 @@ width: 100%;
 /*-------------------------------------"Site-Footer"-------------------------------------*/
 .SiteFooter{
   background-color:#f58634 ;
-  padding: 2rem 5rem 3rem 5rem;
+  padding: 2rem 5rem 1.5rem 5rem;
   text-align:left;
 
 }
 
 .SiteFooter a{
   color: #f7f7ee;
-  flex-wrap: wrap; /* assumes you only want one row */
-  font-size: 22px;
-  font-family: 'Open Sans',sans-serif;
+ /* assumes you only want one row */
+ 
 }
 
-.footerTable{
-  text-align:left
+.SiteFooter .footerTable{
+  border-collapse:separate; 
+  border-spacing: 0 auto 0.65rem auto;
+}
+
+.footerTable .footerTableHead a{
+  text-align:left;
+  font-size:1rem;
+}
+
+.footerTable .footerTableBody a{
+  text-align:left;
+  font-size:0.75rem;
 }
