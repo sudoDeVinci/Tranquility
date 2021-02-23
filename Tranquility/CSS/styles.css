@@ -410,3 +410,50 @@ width: 100%;
   text-align:left;
   font-size:0.75rem;
 }
+
+/*--------------------------------------"About"-------------------------------------------- */
+
+.GTitleRow .Rooms{
+  text-align:center;
+  margin-bottom: 3rem;
+  margin-top:4rem;
+  margin-left:1rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.LocationIcon{
+  width:55%;
+  height:auto;
+}
+
+.LocationRow{
+  text-align: center;
+  margin:  0 auto 0 auto;
+  padding: 2rem;
+ }
+
+ .cols{
+  border-style: outset;
+  color:#f58634;
+  margin-bottom: 3rem;
+ }
+
+ .cols .norm{
+  color:#f58634;
+  font-size: 1.5rem;
+  font-weight: 500;
+ }
+
+.coltext{
+  color:#000000;
+  padding: 1rem;
+}
+
+.footer{
+  margin-top: 3rem;
+  background-color: #ffc478;
+}
+
+/*--------------------------------------"Contact"-------------------------------------------- */
+
