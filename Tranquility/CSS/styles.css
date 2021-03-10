@@ -1,4 +1,4 @@
- /*--------------------------------------Body-------------------------------------------*/
+/*--------------------------------------Body-------------------------------------------*/
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -26,7 +26,7 @@ body{
 }
 
 .topnavitem > a{
- color:#f7f7ee;
+  color:#f7f7ee;
 }
 
 .navbar-brand > img{
@@ -142,9 +142,10 @@ width: 100%;
 .BachelorRow, 
 .FamilyRow, 
 .ReunionRow{
-   width: 100%;
- }
- .SE a{
+  width: 100%;
+}
+
+.SE a{
   font-weight: 800;
   color:#162447;
   font-size: 1.5rem;
@@ -164,14 +165,14 @@ width: 100%;
   margin-bottom:1.5rem;
 
 }
- .BabyShowerRow,.EngagementRow,
+.BabyShowerRow,.EngagementRow,
 .BachelorRow, .ReunionRow{
   text-align:left;
   float:left;
   margin-bottom: 1.5rem;
 }
 
- .BabyShowerRow img,.EngagementRow img,
+.BabyShowerRow img,.EngagementRow img,
 .BachelorRow img, .ReunionRow img{
   margin-right: 1rem;
   margin-left: 3rem;
@@ -496,7 +497,7 @@ width: 100%;
   border:2px solid #ec8b0b;;
   color: #ec8b0b;;
 }
- 
+
 .contact-form{
   display: grid;
   grid-template-columns: auto auto;
@@ -508,33 +509,37 @@ width: 100%;
   letter-spacing: .2rem;
 }
 
-input{
+.form-group{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group input, .form-group textarea{
   padding: 10px;
   margin:10px;
   width: 70%;
+  font-size: 18px;
   border: none;
   outline:none;
+  margin-top: 5px;
   background-color: #ffe8cb;
+  color: #162447;
+}
+
+textarea{
+  resize: vertical;
 }
 
 input::placeholder{
   color: #ec8b0b;
 }
 
-textarea{
-  padding: 10px;
-  margin: 10px;     
-  width: 70%;
-  border: none;
-  outline:none;
-  background-color: #ffe8cb;
-}
-
 textarea::placeholder{
   color: #ec8b0b;
 }
- 
-.submit{
+
+button[type="submit"]{
   width: 50%;
   background: none;
   outline: none;
@@ -547,28 +552,51 @@ textarea::placeholder{
   margin: 3%;
   border:3px solid #ec8b0b;
   color: #ffc478;
+  border-radius: 8px;
+  transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover{
+  border: 2px solid #ec8b0b;
+  color: #ec8b0b;
+  background-color: #ffc478;
+  cursor: pointer;
 }
 
 .contact-section .col{
   padding: 1rem;
 }
 
-.submit:hover{
-  border: 2px solid #ec8b0b;
-  color: #ffc478;
-  cursor: pointer;
+#status{
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: white;
 }
 
-@media (max-width: 768px){
-
-  .contact-section .contact-form{
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  .contact-section .submit{
- 
-    width: 60%;
-  }
- 
+#status.success{
+  background-color: #7cc51c;
+  animation: status 4s ease  forwards;
 }
+
+#status.error{
+  background-color: #e47011;
+  animation: status 4s ease  forwards;
+}
+
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
