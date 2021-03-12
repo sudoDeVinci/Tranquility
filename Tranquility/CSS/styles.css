@@ -587,6 +587,11 @@ button[type="submit"]:hover{
   animation: status 4s ease  forwards;
 }
 
+ol{
+  padding: 2.5rem;
+  text-align: left;
+}
+
 @keyframes status{
   0%{
     opacity: 1;
@@ -600,3 +605,5 @@ button[type="submit"]:hover{
     opacity: 0;
     pointer-events: none;
   }
+}
+
