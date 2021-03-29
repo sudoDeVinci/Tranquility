@@ -885,4 +885,15 @@ ol{
 }
 
 
+/*--------------------------------------"Terms-Of-Service"-------------------------------------------- */
+
+.TOSlist{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color:#d44000;
+}
+.TOSlistOb{
+  margin-bottom:1rem;
+}
 
