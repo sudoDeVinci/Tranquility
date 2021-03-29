@@ -80,8 +80,8 @@ body{
   width:100%;
 }
 .carousel-item > img {
-  width:100%;
-  height:auto;
+  width:900px;
+  height:600px;
 }
 
 .ratinglogo{
@@ -789,10 +789,6 @@ ol{
 
 /*--------------------------------------"Our-Services-Conferences"-------------------------------------------- */
 
-.servicesWeddings{
-
-}
-
 .servicesMealRates{
   text-align: center;
   border-bottom: 5px solid #a6a9b6;
@@ -876,12 +872,15 @@ ol{
 
 .servicesWeddingsDetailsPointL:hover{
   color: #e47011;
+  font-size:1.6rem;
 }
 .servicesWeddingsDetailsPointM:hover{
   color: #e47011;
+  font-size:1.6rem;
 }
 .servicesWeddingsDetailsPointR:hover{
   color: #e47011;
+  font-size:1.6rem;
 }
 
 
