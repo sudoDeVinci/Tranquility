@@ -92,8 +92,8 @@ body{
 .starrating{
   margin-top:1.2rem;
   margin-bottom: 2rem;
-  height:25%;
-  width:80%
+  height:auto;
+  width:80%;
 }
 .reviewtext{
   font-size: 1rem;
