@@ -62,6 +62,7 @@ body{
   margin-top:0rem;
   margin-bottom: 0rem;
   height:0.2rem;
+  
   color:#f7f7ee;
 }
 #special{
@@ -99,14 +100,14 @@ body{
   color: #0a043c;
   font-style: italic;
 }
-/*----------------------------------"Our-Services"------------------------------------*/
+/*----------------------------------"Our-Services-Main-Page"------------------------------------*/
 
 #ourservices{
   padding: 0 0 0 0;
   margin:0 0 0 0 ;
 }
 
-  /*----------------------------------"Special-Events"------------------------------------*/
+  /*----------------------------------"Special-Events-Main-Page"------------------------------------*/
 
 .SpecialEvents .SE h1{
   color: #f58634;
@@ -133,7 +134,9 @@ width: 100%;
   width:18%;
   height:auto;
 }
-
+.EventIcon:hover{
+  width:22%;
+}
 .WeddingRow, 
 .BabyShowerRow, 
 .GenderRevealRow,
@@ -209,7 +212,7 @@ width: 100%;
   font-size: 1.3rem;
 }
 
-  /*----------------------------------"Rooms"-----------------------------------------------*/
+  /*----------------------------------"Rooms-Main-Page"-----------------------------------------------*/
 
 .RoomsTitleRow .Rooms{
   text-align:center;
@@ -223,7 +226,7 @@ width: 100%;
 .RoomDetails{
   border-bottom: 5px solid #a6a9b6;
   border-right:5px solid #a6a9b6;
-  width:320px;
+  width:325px;
   margin-left:0px;
   margin-right:0px;
   padding: 0 0 0 0;
@@ -252,7 +255,7 @@ width: 100%;
 }
 
 .RoomFooterButton{
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   font-weight: 800;
   margin-bottom:2rem;
   margin-top:0.65rem;
@@ -276,6 +279,8 @@ width: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left:0.85rem;
+  color: #162447;
+  font-weight: bold;
   text-align:  left;
 }
 
@@ -287,7 +292,7 @@ width: 100%;
   font-style: italic ;
 }
 
-  /*----------------------------------"Conferences"------------------------------------*/
+  /*----------------------------------"Conferences-Main-Page"------------------------------------*/
 
 .ConfTitleRow .Conferences {
   text-align:center;
@@ -308,7 +313,7 @@ width: 100%;
 .ConfDetails{
   border-bottom: 5px solid #a6a9b6;
   border-right:5px solid #a6a9b6;
-  width:350px;
+  width:300px;
   margin-left:0px;
   margin-right:0px;
   padding: 0 0 0 0;
@@ -447,8 +452,11 @@ width: 100%;
  }
 
 .coltext{
-  color:#000000;
-  padding: 1rem;
+  color:#162447;
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1.2rem;
 }
 
 .footer{
@@ -606,4 +614,275 @@ ol{
     pointer-events: none;
   }
 }
+
+/*--------------------------------------"Our-Services-Special-Events"-------------------------------------------- */
+
+.servicePageSpecialEvents{
+  margin-bottom: 5rem;
+}
+
+.servicePageHeaderRow{
+    text-align: center;
+}
+
+.servicesspecialeventsheader{
+  text-align:center;
+  margin-bottom: 6rem;
+  margin-top:4rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.servicesspecialeventrow{
+  text-align: center;
+  font-size: 2rem;
+  font-weight:600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #162447;;
+}
+
+.servicesspecialeventimage{
+  width:40%;
+  margin-right:10%;
+  margin-left: 10%;
+}
+
+.servicesspecialeventimage:hover{
+  width:45%;
+}
+
+.eventFooterWarning{
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom:2rem;
+  margin-top:6rem;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  background-color:#f58634;
+  color: #f7f7ee;
+}
+
+.eventFooterWarning:hover{
+  -webkit-border-radius:15px;
+  border-radius: 15px;
+  background-color:#f58634;
+  border-color:#b6eb7a;
+  color: #f7f7ee;
+  background-color: #b6eb7a;
+}
+
+/*--------------------------------------"Our-Services-Rooms"-------------------------------------------- */
+
+.roomPricing{
+  color: #206a5d;
+  margin-top: 1.5rem;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  font-style: italic ;
+  }
+
+.servicesRoomsTitleRow .servicesRooms{
+  text-align:center;
+  margin-bottom: 2rem;
+  margin-top:4rem;
+  margin-left:1rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.servicesRoomHeader{
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  font-weight:800;
+  color: #162447;;
+}
+
+.servicesRoomCol{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  display:inline;
+}
+
+.servicesRoomRow{
+ text-align: center;
+ margin:  0 auto 0 auto;
+ padding: 0 15% 0 15%;
+}
+
+.servicesRoomFooterButton{
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom:2rem;
+  margin-top:0.65rem;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  background-color:#f58634;
+  color: #f7f7ee;
+}
+
+.servicesRoomFooterButton:hover{
+  -webkit-border-radius:15px;
+  border-radius: 15px;
+  background-color:#f58634;
+  border-color:#b6eb7a;
+  color: #f7f7ee;
+  background-color: #b6eb7a;
+
+}
+
+.servicesRoomRow div table tbody tr td{
+  font-size: 1.1rem;
+  color: #162447;
+  font-weight:bold;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left:0.85rem;
+  text-align: left;
+}
+
+.servicesRoomDetails{
+  line-height:2.5rem;
+  border-bottom: 5px solid #a6a9b6;
+  border-right: 5px solid #a6a9b6;
+  width:320px;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 0 0 0 0;
+}
+
+.roomhr{
+  border-top: 0.45rem dotted #a6a9b6;
+  width: 25%;
+  border-bottom: none;
+}
+
+.servicesRoomRow div table tbody tr .priceHeader{
+  text-align: center;
+  font-size: 2rem;
+  font-weight:800;
+  color: #162447;;
+}
+
+.servicesRoomRow div table tbody tr .roomPricing{
+  font-size: 1.3rem;
+  padding-right: 0.15rem;
+  padding-bottom: 1.45rem;
+  color: #162447;
+  text-align: center;
+}
+
+.servicesRoomRow div table tbody tr .roomPriceNumber{
+  font-size: 2.5rem;
+  color:#162447;
+}
+
+.servicesRoomExtraText{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight:600;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #162447;;
+}
+
+/*--------------------------------------"Our-Services-Conferences"-------------------------------------------- */
+
+.servicesWeddings{
+
+}
+
+.servicesMealRates{
+  text-align: center;
+  border-bottom: 5px solid #a6a9b6;
+  border-right: 5px solid #a6a9b6;
+  border-left: 2px solid #dddddd;
+  border-top:2px solid #dddddd;
+  
+  width:100%;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 0 0 0 0;
+}
+
+.mealType{
+  font-weight: 400;
+  font-size: 1.4rem;;
+}
+
+.mealCost{
+  font-size: 2.3rem;
+}
+
+.mealCostSubtext{
+  font-size: 1rem;
+}
+
+/*--------------------------------------"Our-Services-Weddings"-------------------------------------------- */
+
+.servicesWeddingsTitleRow .servicesWeddingsTitle{
+  text-align:center;
+  margin-bottom: 4rem;
+  margin-top:4rem;
+  font-size: 4.35rem;
+  color:#f58634;
+}
+
+.servicesWeddingsCol{
+  padding-left:15%;
+  padding-right:15%;
+}
+
+.servicesWeddingsCol .weddingExtraText .weddingPackage{
+  font-weight:800;
+}
+
+.servicesWeddingsRow .servicesWeddingsCol .weddingExtraText{
+  font-weight:600;
+  font-size:1.2rem;
+}
+
+.weddingTOS{
+  text-align:left;
+  font-weight:600;
+  font-size:1.1rem;
+  margin-bottom:5rem;
+}
+
+.servicesWeddingsDetails{
+  color: #162447;
+  font-weight:800;
+  font-size:1.4rem;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:4rem;
+  margin-top:4rem;
+  padding: 0 4rem 0 4rem;
+}
+
+.servicesWeddingsDetailsPointL{
+  margin-right: 1rem;
+  text-align: left;
+}.servicesWeddingsDetailsPointM{
+  margin-right: 1rem;
+  text-align: center;
+}.servicesWeddingsDetailsPointR{
+  margin-right: 1rem;
+  text-align: right;
+}
+
+
+.servicesWeddingsDetailsPointL:hover{
+  color: #e47011;
+}
+.servicesWeddingsDetailsPointM:hover{
+  color: #e47011;
+}
+.servicesWeddingsDetailsPointR:hover{
+  color: #e47011;
+}
+
+
 
