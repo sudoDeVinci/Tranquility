@@ -478,7 +478,7 @@ width: 100%;
   margin-bottom: 2rem;
   margin-top:2rem;
   margin-left:1rem;
-  font-size: 4.35rem;
+  font-size: 4rem;
   color:#f58634;
 }
 
@@ -498,24 +498,37 @@ width: 100%;
   cursor: pointer;
   border:2px solid #ffc478;
   color: #ffc478;
+  height: auto;
+  width: 15vh;
 }
 
 .contact-form i.fa:hover{
   cursor: pointer;
-  border:2px solid #ec8b0b;;
-  color: #ec8b0b;;
+  border:2px solid #ec8b0b;
+  color: #ec8b0b;
 }
 
 .contact-form{
   display: grid;
-  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+  word-wrap: break-word;
 }
   
 .form-info{
   font-size: 1.3rem;   
   font-style: italic;
   letter-spacing: .2rem;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
 }
+
 
 .form-group{
   width: 100%;
@@ -562,6 +575,7 @@ button[type="submit"]{
   color: #ffc478;
   border-radius: 8px;
   transition: .3s ease background-color;
+  width: auto;
 }
 
 button[type="submit"]:hover{
@@ -614,6 +628,7 @@ ol{
     pointer-events: none;
   }
 }
+
 
 /*--------------------------------------"Our-Services-Special-Events"-------------------------------------------- */
 
